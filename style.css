@@ -36,6 +36,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    background-color: aqua;
 }
 .nav-links {
     gap: 2rem;
@@ -138,6 +139,7 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    background-color: mediumorchid;
 }
 .section-container {
     display: flex;
