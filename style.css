@@ -12,7 +12,6 @@
     padding-top: 4vh;
     margin: 0 10rem;
     box-sizing: border-box;
-<<<<<<< HEAD
     display: grid;
      grid-template-columns: auto;
     justify-content: center;
@@ -28,7 +27,6 @@
         display: grid;
     grid-template-columns: 1fr;
     }
-=======
     min-height: fit-content;
     display: flex;
     justify-content: center;
@@ -40,7 +38,6 @@
         grid-column-gap: 50px;
     }
 }
->>>>>>> 18e497f17eb26e4512c233f08efeb25a4a68534f
 
 
 .text-container {
@@ -150,11 +147,7 @@
 }
 
 .skill {
-<<<<<<< HEAD
     background-color: rgb(105, 105, 105);
-=======
-    background-color: rgb(85, 85, 85);
->>>>>>> 18e497f17eb26e4512c233f08efeb25a4a68534f
     color: white;
     align-items: center;
     box-sizing: border-box;
@@ -205,6 +198,7 @@
     box-sizing: border-box;
     padding: 50px 100px 30px;
 }
+
 
 @media only screen and (min-width: 450px) {
     .body-1{
@@ -342,6 +336,8 @@
 }
 #projects {
     text-align: center;
+    background-color: black;
+    color: aliceblue;
     &p{
         padding-bottom: 50px;
     }
@@ -350,4 +346,13 @@
     text-align: left;
     justify-content: flex-start;
     align-items: flex-start;
+}
+.copy{
+padding-top: 20px;
+}
+.l-foot{
+    margin-left: 80px;
+}
+.m-foot{
+    background-color: rgb(25, 25, 25);
 }
