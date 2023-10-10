@@ -10,11 +10,10 @@
 
 .body-1 {
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
-    display: flex;
+    display: grid;
+     grid-template-columns: auto;
     justify-content: center;
 }
 
@@ -189,13 +188,14 @@
     padding: 50px 100px 30px;
 }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 450px) {
     .body-1{
-        flex-direction: row;
+        flex-direction: column;
     }
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 50px;
+        align-items: center;
     }
 }
 
