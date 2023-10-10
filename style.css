@@ -12,6 +12,7 @@
     padding-top: 4vh;
     margin: 0 10rem;
     box-sizing: border-box;
+<<<<<<< HEAD
     display: grid;
      grid-template-columns: auto;
     justify-content: center;
@@ -27,6 +28,19 @@
         display: grid;
     grid-template-columns: 1fr;
     }
+=======
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .body-1 {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+    }
+}
+>>>>>>> 18e497f17eb26e4512c233f08efeb25a4a68534f
 
 
 .text-container {
@@ -136,7 +150,11 @@
 }
 
 .skill {
+<<<<<<< HEAD
     background-color: rgb(105, 105, 105);
+=======
+    background-color: rgb(85, 85, 85);
+>>>>>>> 18e497f17eb26e4512c233f08efeb25a4a68534f
     color: white;
     align-items: center;
     box-sizing: border-box;
