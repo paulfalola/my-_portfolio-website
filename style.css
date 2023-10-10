@@ -10,9 +10,25 @@
 
 .body-1 {
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
+<<<<<<< HEAD
+    display: grid;
+     grid-template-columns: auto;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    .skill {
+        height: fit-content;
+    }
+        }
+    .bg-img,
+    .text-container{
+        display: grid;
+    grid-template-columns: 1fr;
+    }
+=======
     min-height: fit-content;
     display: flex;
     justify-content: center;
@@ -24,6 +40,7 @@
         grid-column-gap: 50px;
     }
 }
+>>>>>>> 18e497f17eb26e4512c233f08efeb25a4a68534f
 
 
 .text-container {
@@ -133,7 +150,11 @@
 }
 
 .skill {
+<<<<<<< HEAD
+    background-color: rgb(105, 105, 105);
+=======
     background-color: rgb(85, 85, 85);
+>>>>>>> 18e497f17eb26e4512c233f08efeb25a4a68534f
     color: white;
     align-items: center;
     box-sizing: border-box;
@@ -170,9 +191,10 @@
     height: 100px;
     padding-top: 50px;
     width: 500px;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(105, 105, 105);
     line-height: 2px;
     padding-top: 50px;
+    border-color: 2px solid black;
 }
 
 .grid-container {
@@ -184,10 +206,14 @@
     padding: 50px 100px 30px;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 450px) {
+    .body-1{
+        flex-direction: column;
+    }
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 50px;
+        align-items: center;
     }
 }
 
@@ -304,4 +330,24 @@
     &:hover {
         text-decoration: underline;
     }
+}
+.part-2{
+    gap: 300px;
+}
+.html{
+    background-color: white;
+}
+.progress{
+    background-color: aliceblue;
+}
+#projects {
+    text-align: center;
+    &p{
+        padding-bottom: 50px;
+    }
+}
+.progress-bar bg-success{
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
