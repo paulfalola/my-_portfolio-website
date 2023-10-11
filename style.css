@@ -400,6 +400,7 @@ text-align: center;
     display: block;
     width: 100%;
     height: 100%;
+    justify-content: center;
 }
 
 .hero-text_wrapper {
@@ -478,4 +479,9 @@ text-align: center;
 .my-progress{
     background-color: aqua;
 }
+.subject{
+    height: 50%;
+    width: 10%;
+}
+
 
