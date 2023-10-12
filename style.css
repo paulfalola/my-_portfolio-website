@@ -499,11 +499,12 @@ border: 10px solid black;
     }
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (min-width:300px){
   #project{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100px;
   }  
 }
 @media screen only and(max-width:400px){
