@@ -115,6 +115,9 @@
     padding-bottom: 50px;
 
 }
+#about{
+    display: flex;
+}
 
 .about-me {
     display: grid;
@@ -336,13 +339,14 @@
 }
 #projects {
     text-align: center;
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    border: 10px solid black;
     &p{
         padding-bottom: 50px;
     }
 }
-.progress-bar bg-success{
+.progress-bar progress-bar{
     text-align: left;
     justify-content: flex-start;
     align-items: flex-start;
@@ -436,13 +440,14 @@ text-align: center;
 }
 
 .button-one {
-    background-color: transparent;
-    border: 1px solid black;
+background-color: rgb(255, 255, 255);
+border: 10px solid black;
 }
 
 .button-two {
-    background-color: black;
+    background-color: rgb(105, 105, 105);
     color: white;
+    border: 10px solid red;
 }
 
 .hero-socials {
@@ -483,5 +488,23 @@ text-align: center;
     height: 50%;
     width: 10%;
 }
+@media only screen and (max-width:800px){
+    #about{
+        flex-direction: column;
+    }
+}
 
+@media only screen and (max-width:400px){
+  #project{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }  
+}
+@media screen only and(max-width:400px){
+    .txt-1{
+        align-items:center;
+        justify-content:center;
+    }
+}
 
