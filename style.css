@@ -407,7 +407,7 @@ text-align: center;
     height: auto;
 }
 
-@media only screen and (min-width: 1200px) {
+#abomedia only screen and (min-width: 1200px) {
     .profile-pic_wrapper {
         width: 500px;
     }
@@ -489,6 +489,7 @@ border: 10px solid black;
 }
 .my-skills{
     background-color: aquamarine;
+    
 }
 .h1-skills{
    font-weight: 900;
@@ -497,10 +498,24 @@ border: 10px solid black;
 .my-progress{
     background-color: aqua;
 }
+.contact-info_wrapper .i .a{
+    gap: 10px;
+}
+.fa-solid fa-envelope email-icon{
+    gap: 5px;
+}
+.sec-foot a{
+gap: 5px;
+}
+
+
+
 
 @media only screen and (min-width:500px){
     #about{
+        display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -516,6 +531,12 @@ border: 10px solid black;
     .txt-1{
         align-items:center;
         justify-content:center;
+    }
+}
+
+@media only screen and(min-width:500){
+    #about{
+
     }
 }
 
