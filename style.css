@@ -525,6 +525,7 @@ gap: 5px;
     align-items: center;
     text-align: center;
     width: 100%;
+    justify-content: center;
   }  
 }
 @media screen only and(max-width:400px){
@@ -536,7 +537,21 @@ gap: 5px;
 
 @media only screen and(min-width:500){
     #about{
+display: grid;
+grid-template-columns: 1fr ifr;
+    }
+}
+@media only screen and (min-width:500px) {
+    .grid-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
 
+@media only screen and (min-width:300px){
+    #projects{
+justify-content: center;
+align-items: center;
     }
 }
 
