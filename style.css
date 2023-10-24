@@ -477,6 +477,21 @@ border: 10px solid black;
 .hero-socials .fa-linkedin, .hero-socials .fa-github {
     font-size: 32px;
 }
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (min-width: 480px){
+    .about-me{
+    display: flex;
+    
+    
+    }
+}
+
+
+
 
 @media only screen and (max-width: 1200px) {
     .skill {
@@ -512,39 +527,6 @@ border: 10px solid black;
 gap: 5px;
 }
 
-
-
-
-@media only screen and (min-width:500px){
-    #about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media only screen and (min-width:500px){
-  #project{
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-  }  
-}
-@media screen only and(max-width:400px){
-    .txt-1{
-        align-items:center;
-        justify-content:center;
-    }
-}
-
-@media only screen and(min-width:500){
-    #about{
-display: grid;
-grid-template-columns: 1fr ifr;
-    }
-}
 @media only screen and (min-width:500px) {
     .grid-container{
         justify-content: center;
@@ -558,27 +540,9 @@ justify-content: center;
 align-items: center;
     }
 }
-@media only screen and (max-width:450px){
-    #about{
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        
-    }
-}
-@media only screen and (min-width:480px){
-    .AM{
-        position: absolute;
-    }
-}
+
+
 @media only screen and (min-width:400px){
-    #project{
-        width: 80px;
-    }
-}
-@media only screen and (min-width:4400px){
     .grid-container{
 justify-content: center;
 align-items: center;
@@ -586,3 +550,18 @@ text-align: center;
     }
 }
 
+
+@media only screen and (max-width: 1200px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
