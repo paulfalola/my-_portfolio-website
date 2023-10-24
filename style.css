@@ -128,7 +128,11 @@
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
 }
+
 
 .about-me h2 {
     gap: 4rem;
@@ -407,7 +411,7 @@ text-align: center;
     height: auto;
 }
 
-#abomedia only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .profile-pic_wrapper {
         width: 500px;
     }
@@ -548,10 +552,37 @@ grid-template-columns: 1fr ifr;
     }
 }
 
-@media only screen and (min-width:300px){
+@media only screen and (max-width:350px){
     #projects{
 justify-content: center;
 align-items: center;
+    }
+}
+@media only screen and (max-width:450px){
+    #about{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+}
+@media only screen and (min-width:480px){
+    .AM{
+        position: absolute;
+    }
+}
+@media only screen and (min-width:400px){
+    #project{
+        width: 80px;
+    }
+}
+@media only screen and (min-width:4400px){
+    .grid-container{
+justify-content: center;
+align-items: center;
+text-align: center;
     }
 }
 
