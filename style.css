@@ -32,7 +32,7 @@
     justify-content: center;
 } */
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px){
     .body-1 {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 50px;
@@ -42,6 +42,12 @@
 
 .AM{
     text-align: center;
+}
+@media only screen and (max-width: 500px){
+    .AM{
+       align-items: center;
+       justify-content: center;
+    }
 }
 
 
