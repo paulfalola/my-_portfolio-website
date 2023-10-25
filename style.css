@@ -133,7 +133,7 @@
 .about-me {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-color: aliceblue;
+    background-color: rgb(170, 170, 170);
     padding-bottom: 50px;
     padding-top: 50px;
     padding-left: 50px;
@@ -475,13 +475,13 @@ text-align: center;
 
 .button-one {
 background-color: rgb(255, 255, 255);
-border: 10px solid black;
+border: 10px solid green;
 }
 
 .button-two {
     background-color: rgb(105, 105, 105);
     color: white;
-    border: 10px solid red;
+    border: 10px solid green;
 }
 
 .hero-socials {
