@@ -40,6 +40,10 @@
     }
 }
 
+.AM{
+    text-align: center;
+}
+
 
 .text-container {
     align-items: center;
@@ -260,6 +264,12 @@
     padding-top: 70px;
 }
 
+@media only screen and (max-width: 500px){
+    .txt-1{
+        text-align: center;
+    }
+}
+
 .social-container a {
     justify-content: center;
 }
@@ -447,6 +457,7 @@ text-align: center;
     gap: 10px;
 }
 
+
 .button_link {
     display: block;
 }
@@ -527,14 +538,22 @@ border: 10px solid black;
 gap: 5px;
 }
 
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:500px){
     .grid-container{
         justify-content: center;
         align-items: center;
     }
 }
+@media only screen and (max-width:500px){
+    .grid-container{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
 
-@media only screen and (max-width:350px){
+
+@media only screen and (max-width:500px){
     #projects{
 justify-content: center;
 align-items: center;
@@ -551,16 +570,31 @@ text-align: center;
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 500px) {
     #projects {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 450px) {
     #projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:500px){
+    #contact{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    #contact {
         display: flex;
         flex-direction: column;
     }
